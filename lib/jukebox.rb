@@ -51,8 +51,8 @@ def run
     elsif command == "play"
       play
     elsif command == "exit"
-      exit_jukebox      
+      exit_jukebox
+      break
     end
 
-    end
 end
