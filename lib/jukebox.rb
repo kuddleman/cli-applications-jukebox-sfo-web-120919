@@ -17,8 +17,8 @@ def play(songs)
   choice = gets.strip  # choice will be a string
 
   if songs.include?(choice) || songs.index(choice) <= songs.length - 1
-    
-    
+
+
   end
 end
 
