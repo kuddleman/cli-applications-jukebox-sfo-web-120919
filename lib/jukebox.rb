@@ -26,7 +26,7 @@ def play(songs)
 
   if choice.length <= 2
     choice = choice.to_i
-    if songs.include?(songs[choice])
+    if songs.include?(songs[choice - 1])
       puts "Playing #{songs[choice - 1]}"
     else
       puts "Invalid input, please try again"
