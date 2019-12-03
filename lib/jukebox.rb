@@ -12,7 +12,14 @@ def list(songs)
   end
 end
 
-def play
+def play(songs)
+  puts "Please enter a song name or number:"
+  choice = gets.strip  # choice will be a string
+
+  if songs.include?(choice) || songs.index(choice) <= songs.length - 1
+    
+    
+  end
 end
 
 def exit_jukebox
