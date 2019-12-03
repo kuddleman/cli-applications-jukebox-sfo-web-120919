@@ -53,6 +53,6 @@ def run
     elsif command == "exit"
       exit_jukebox      
     end
-      
+
     end
 end
